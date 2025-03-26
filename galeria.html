@@ -1,9 +1,66 @@
-<html>
-	<link href="style.css" rel="stylesheet">
-	<meta charset="UTF-8"/>
-
-	<head>
-	<header>MENÚ</header>
-	<head>
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sucursales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .gallery-item {
+            margin: 15px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            width: 300px;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+        }
+        .gallery-item p {
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+            background-color: #333;
+            color: white;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Nuestras Sucursales</h1>
+    </div>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="imagen_sucursal1.jpg" alt="Sucursal 1">
+            <p>Sucursal 1 - Ciudad A</p>
+        </div>
+        <div class="gallery-item">
+            <img src="imagen_sucursal2.jpg" alt="Sucursal 2">
+            <p>Sucursal 2 - Ciudad B</p>
+        </div>
+        <div class="gallery-item">
+            <img src="imagen_sucursal3.jpg" alt="Sucursal 3">
+            <p>Sucursal 3 - Ciudad C</p>
+        </div>
+    </div>
+</body>
 </html>
