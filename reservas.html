@@ -17,6 +17,19 @@
             color: white;
             padding: 1rem;
         }
+        nav {
+            background:grey;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+            transition: background 0.3s;
+        }
         form {
             max-width: 600px;
             margin: 2rem auto;
@@ -37,7 +50,7 @@
             border-radius: 5px;
         }
         form button {
-            background-color: #333;
+            background-color: grey;
             color: white;
             border: none;
             cursor: pointer;
@@ -60,6 +73,14 @@
     <header>
         <h1>Reserva en nuestro Restaurante</h1>
     </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="menu.html">Menú</a></br>
+        <a href="reservas.html">Reservar</a></br>
+        <a href="galeria.html">Sucursales</a></br>
+        <a href="opiniones.html">Opiniones</a>
+        <a href="contacto.html">Contacto</a>
+</nav>
     <form action="/reservar" method="POST">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required>
